@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="target.png" />
+    <title>Extension</title>
+  </head>
+  <body>
+    <h1>Save Your Links Easily</h1>
+    <input type="text" id="input-el" placeholder="www.example.com" />
+    <div class="buttons">
+      <div>
+        <button id="input-btn" alt="Enter">SAVE INPUT</button>
+        <div id="saved">
+          <p>SAVED</p>
+          <img src="checked-icon.png" width="17px" />
+        </div>
+      </div>
+      <div>
+        <button id="clear-btn">CLEAR LINKS</button>
+        <div id="cleared">
+          <p>CLEARED</p>
+          <img src="checked-icon.png" width="17px" />
+        </div>
+      </div>
+      <div>
+        <button id="saved-btn">SHOW LINKS</button>
+        <div id="showed">
+          <p>Done</p>
+          <img src="checked-icon.png" width="17px" />
+        </div>
+      </div>
+    </div>
+
+    <div id="list"><ul id="ul-el"></ul></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
